@@ -47,8 +47,6 @@ function deleteFoundLogStatements(workspaceEdit, docUri, logs) {
 }
 
 function activate(context) {
-    System.out.println('console-sout-utils is now active');
-
     const insertLogStatement = vscode.commands.registerCommand('extension.insertSysoutStatement', () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) { return; }
