@@ -3,7 +3,7 @@
   "displayName": "Java System Out Println",
   "description": "Help insert and remove System.out.println(*) statement",
   "version": "1.0.0",
-  "publisher": "ricardoemerson",
+  "publisher": "ricardo-emerson",
   "repository": "https://github.com/ricardoemerson/java-sysout",
   "icon": "images/logo.png",
   "engines": {
