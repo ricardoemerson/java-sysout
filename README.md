@@ -1,13 +1,13 @@
 <p align="center">
   <br />
-  <a title="Learn more about Java System Out Println" href="https://github.com/ricardoemerson/java-sysout">
-    <img src="https://raw.githubusercontent.com/ricardoemerson/java-sysout/master/images/cover-logo.png" alt="Java System Out Println" width="256"  heigth="256"/>
+  <a title="Learn more about Java SysOut" href="https://github.com/ricardoemerson/java-sysout">
+    <img src="https://raw.githubusercontent.com/ricardoemerson/java-sysout/master/images/cover-logo.png" alt="Java SysOut" width="256"  heigth="256"/>
     </a>
 </p>
 
 ## Support
 
-**Java System Out Println** is an extension created for **Visual Studio Code**. If you find it useful, please consider supporting it.
+**Java SysOut** is an extension created for **Visual Studio Code**. If you find it useful, please consider supporting it.
 
 <table align="center" width="60%" border="0">
   <tr>
@@ -24,7 +24,7 @@
   </tr>
 </table>
 
-## Java System Out Println
+## Java SysOut
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout)
