@@ -47,7 +47,7 @@ function deleteFoundLogStatements(workspaceEdit, docUri, logs) {
 }
 
 function activate(context) {
-    const insertLogStatement = vscode.commands.registerCommand('extension.insertSysoutStatement', () => {
+    const insertSysOutStatement = vscode.commands.registerCommand('extension.insertSysoutStatement', () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) { return; }
 
@@ -61,6 +61,24 @@ function activate(context) {
                     insertText(logToInsert);
                 })
             : insertText('System.out.println("");');
+
+    });
+    context.subscriptions.push(insertSysOutStatement);
+
+    const insertLogStatement = vscode.commands.registerCommand('extension.insertLogStatement', () => {
+        const editor = vscode.window.activeTextEditor;
+        if (!editor) { return; }
+
+        const selection = editor.selection;
+        const text = editor.document.getText(selection);
+
+        text
+            ? vscode.commands.executeCommand('editor.action.insertLineAfter')
+                .then(() => {
+                    const logToInsert = `log.info("${text}: {}", ${text});`;
+                    insertText(logToInsert);
+                })
+            : insertText('log.info("");');
 
     });
     context.subscriptions.push(insertLogStatement);

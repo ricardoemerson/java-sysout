@@ -1,7 +1,7 @@
 <p align="center">
   <br />
   <a title="Learn more about Java SysOut" href="https://github.com/ricardoemerson/java-sysout">
-    <img src="https://raw.githubusercontent.com/ricardoemerson/java-sysout/master/images/cover-logo.png" alt="Java SysOut" width="256"  heigth="256"/>
+    <img src="https://raw.githubusercontent.com/ricardoemerson/java-sysout/master/images/cover-logo.png" alt="Java SysOut" width="256"  height="256"/>
     </a>
 </p>
 
@@ -39,16 +39,29 @@ Easily insert and remove `System.out.println("variable: " + variable);` statemen
 
 With selection:
 * Highlight a variable (or really any text)
-* Press `Cmd+Shift+L`
+* Press `Ctrl+Shift+L`
 * The output (on a new line) will be: `System.out.println("variable: " + variable);`
 
 Without selection:
-* Press `Cmd+Shift+L`
+* Press `Ctrl+Shift+L`
 * The output (on the same line) will be: `System.out.println("");`
 
 To remove System.out.println:
-* Press `Cmd+Shift+D`
+* Press `Ctrl+Shift+D`
 * This will delete all System.out.println statements in the current document
+
+
+## Usage of Slf4j - Simple Logging Facade for Java
+
+With selection:
+* Highlight a variable (or really any text)
+* Press `Cmd+Shift+L`
+* The output (on a new line) will be: `log.info("variable: {}", variable);`
+
+Without selection:
+* Press `Cmd+Shift+L`
+* The output (on a new line) will be: `log.info("");`
+
 
 ## License
 [MIT License](LICENSE)
