@@ -2,6 +2,10 @@
 
 All notable changes to the Java System Out Println extension will be documented in this file.
 
+## [1.2.1]
+
+- Updated the badges in README.md.
+
 ## [1.2.0]
 
 - Change shortcut of System.out.println("") to `Ctrl` + `Shift` + `L`.

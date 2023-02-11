@@ -26,10 +26,11 @@
 
 ## Java SysOut
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/ricardo-emerson.java-sysout.svg)](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.java-sysout&ssr=false#review-details)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ricardo-emerson.java-sysout.svg?style=flat-square)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/ricardo-emerson.java-sysout.svg?style=flat-square)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ricardo-emerson.java-sysout.svg?style=flat-square)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ricardo-emerson.java-sysout.svg?style=flat-square)
+[![GitHub](https://img.shields.io/github/stars/ricardoemerson/java-sysout.svg?style=flat-square)](https://github.com/ricardoemerson/java-sysout)
 
 Easily insert and remove `System.out.println("variable: " + variable);` statement.
 

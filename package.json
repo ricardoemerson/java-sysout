@@ -2,7 +2,7 @@
   "name": "java-sysout",
   "displayName": "Java SysOut",
   "description": "Help insert and remove System.out.println(*) statement",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "ricardo-emerson",
   "repository": "https://github.com/ricardoemerson/java-sysout",
   "icon": "images/logo.png",
