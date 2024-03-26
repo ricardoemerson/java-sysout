@@ -1,4 +1,4 @@
-VSCode extension Java SysOut
+VSCode extension SysOut for Java
 Copyright (c) 2021 Ricardo Emerson
 All rights reserved.
 

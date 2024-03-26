@@ -1,6 +1,10 @@
 # Change Log
 
-All notable changes to the Java System Out Println extension will be documented in this file.
+All notable changes to the System Out Println for Java extension will be documented in this file.
+
+## [1.3.0]
+
+- Updated the extension logo and name.
 
 ## [1.2.1]
 
@@ -13,7 +17,7 @@ All notable changes to the Java System Out Println extension will be documented 
 
 ## [1.1.0]
 
-- Change extension name to Java SysOut.
+- Change extension name to SysOut for Java.
 
 ## [1.0.0]
 
